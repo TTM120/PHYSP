@@ -2,7 +2,7 @@ import streamlit as st
 import streamlit.components.v1 as components
 import numpy as np
 import time
-from PIL import Image
+#from PIL import Image
 ######################################### 
 ###########################################################
 from scipy.optimize import fsolve
