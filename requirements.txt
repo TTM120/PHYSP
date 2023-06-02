@@ -1,5 +1,4 @@
-pip==23.1.2
-matplotlib==3.7.1
-numpy==1.18.1
-scipy==1.4.1
 streamlit
+numpy
+scipy
+matplotlib
