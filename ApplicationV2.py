@@ -291,10 +291,10 @@ tab1,tab2,tab3=st.tabs(['Tuto','Trajectoires','Astuces'])
 
 
 # image = st.file_uploader("Diagramme", type="png")
-image = Image.open('./Diagramme.png')
-
+# image = Image.open('./Diagramme.png')
 
 with tab1:
+    
     st.header("Un petit tuto s'impose")
     st.write("Tu trouveras sur la barre latérale différents paramètres associés à l'athlète et sa perche.")
     fm_widget = st.slider("C'est un exemple",
@@ -312,9 +312,14 @@ with tab1:
     #                   min_value= EI0_min, max_value=EI0_max, value=EI0_ini,
     #                   step= EI0_step)
     st.write("Ensuite, tu peux cliquer sur l'onglet Trajectoires: Tu peux apercevoir la trajectoire du perchiste. Si tu attends encore un peu, une vidéo apparaîtra et te permettra de voir la perche en action!")
+    st.write(" En utilisant des perches tu peux décupler ta capacité de saut ! Aujourd’hui le record du monde de saut à la perche est à 6.22 m. Pour réaliser une telle prouesse il faut choisir une perche adaptée et avoir une technique irréprochable. Avant de sauter, une bonne course permet d’accumuler de l’énergie, que tu peux transmettre à la perche en la pliant. La perche te redonnera cette énergie pour te permettre de prendre de la hauteur. Avec une bonne technique tu peux même rajouter de l’énergie dans la perche pendant le saut ! Essayons déjà de trouver une perche qui te convient sans penser à la technique.")
+    
+    st.write("Si tu veux faire un bon saut, il faut bien déjà bien choisir ta perche. Si elle est trop raide ou trop longue tu risques d’être renvoyé vers la piste. Si elle est trop souple tu ne sauteras pas bien haut. Pour sauter haut c’est mieux d’avoir une perche longue. Mais attention ! Comme tu peux le voir sur ce graphique, plus la perche est longue et plus ce sera difficile de trouver la bonne raideur.")
+    
+    st.write("Pour t’aider tu ne pourras choisir la raideur qu’entre deux valeurs. La perche doit être assez souple pour pouvoir la plier avec l’énergie accumulée grâce à la course, et assez raide pour qu’elle se déplie pendant le saut.")
     
     st.header("Un bon perchiste sait trouver son équilibre... et toi?")
-    # st.image(image)
+    st.image("Diagramme.png")
 
 with tab2:
     Affiche()
