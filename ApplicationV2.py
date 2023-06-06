@@ -316,7 +316,7 @@ with tab1:
     
     st.write("Si tu veux faire un bon saut, il faut bien déjà bien choisir ta perche. Si elle est trop raide ou trop longue tu risques d’être renvoyé vers la piste. Si elle est trop souple tu ne sauteras pas bien haut. Pour sauter haut c’est mieux d’avoir une perche longue. Mais attention ! Comme tu peux le voir sur ce graphique, plus la perche est longue et plus ce sera difficile de trouver la bonne raideur.")
     st.image("Diagramme.png")
-    st.caption("Eddi Antonin, _High Jump and Pole Vault : a classical case of tunneling_, Sport Physics, p334-244, 2012." )
+    st.caption("Eddi Antonin, _High Jump and Pole Vault : a classical case of tunneling_, Sport Physics, p353, 2012." )
     st.write("Pour t’aider tu ne pourras choisir la raideur qu’entre deux valeurs. La perche doit être assez souple pour pouvoir la plier avec l’énergie accumulée grâce à la course, et assez raide pour qu’elle se déplie pendant le saut.")
     
     st.header("Un bon perchiste sait trouver son équilibre... et toi?")
